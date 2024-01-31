@@ -53,11 +53,12 @@ body {
     content: '';
     position: absolute;
     z-index: 2;
+    width: 0px;
+    height: 0px;
     border-top: 150px solid transparent;
     border-right: 175px solid var(--envelope-cover);
     border-left: 175px solid var(--envelope-cover);
     border-bottom: 101px solid var(--envelope-cover);
-    bottom: 0;
 }
 
 .envelope > .letter {
@@ -77,7 +78,6 @@ body {
 .envelope > .letter > .text {
     font-size: 13px;
     color: var(--txt-color);
-    /* text-align: center; */
 }
 
 .message {
@@ -113,11 +113,11 @@ body {
 }
 
 .heart::before {
-    top: -17.5px;
+    top: -14.5px;
 }
 
 .heart::after {
-    right: 17.5px;
+    right: 14.5px;
 }
 
 @keyframes heart-bounce {
@@ -160,11 +160,11 @@ body {
 }
 
 .heart-base::before {
-    top: -17.5px;
+    top: -14.5px;
 }
 
 .heart-base::after {
-    right: 17.5px;
+    right: 14.5px;
 }
 
 .heart2 {
