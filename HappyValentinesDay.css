@@ -20,6 +20,17 @@ body {
     justify-content: center;
 }
 
+@font-face {
+    font-family: Kollektif;
+    src: url('https://cdn.courses.apisystem.tech/memberships/N3at4scjGwoJ8pffJQ5K/post-materials/ddd763f2-c8f7-4342-87dc-3e7bbff85cd9/Kollektif.woff2') format('woff2');
+}
+
+.font {
+    font-family: "Kollektif" !important;
+    font-weight: normal;
+    font-style: normal;
+}
+
 .container {
     height: 100vh;
     display: grid;
